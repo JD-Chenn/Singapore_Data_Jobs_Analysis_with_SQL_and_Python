@@ -60,7 +60,7 @@ plt.gca().xaxis.set_major_formatter(FuncFormatter(lambda x, pos: f'${x/1000:.0f}
 plt.show()
 ```
 
-![Visualization of Top Data Analyst Jobs Using Python](images\top_salary_jobs.png)
+![Visualization of Top Data Analyst Jobs Using Python](images/top_salary_jobs.png)
 *Bar chart visualizing the top paying data analyst jobs in Singapore.*
 
 From this result, we can see that:
@@ -117,7 +117,7 @@ plt.xlabel('Number of Skill Mentions')
 plt.title('Skill Frequency at Top-Paying Data Analyst Jobs')
 plt.show()
 ```
-![Viz of Skills Mentioned at Top-Paying Jobs](images\top_jobs_skill_mentions.png)
+![Viz of Skills Mentioned at Top-Paying Jobs](images/top_jobs_skill_mentions.png)
 
 *Bar chart visualizing the skills mentioned at top-paying data analyst jobs in Singapore.*
 
