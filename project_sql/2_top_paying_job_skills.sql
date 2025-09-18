@@ -13,7 +13,8 @@ WITH top_paying_jobs AS (
     WHERE 
         job_title_short = 'Data Analyst' AND
         salary_year_avg IS NOT NULL AND
-        job_location = 'Anywhere'
+        job_country = 'Singapore' AND
+        job_title NOT LIKE '%Research_Scientist%'
 
     ORDER BY
         salary_year_avg DESC
